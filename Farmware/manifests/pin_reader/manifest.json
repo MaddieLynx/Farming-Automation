@@ -5,7 +5,7 @@
  "description": "Take a photo using a USB or Raspberry Pi camera.",
  "version": "1.0.0",
  "min_os_version_major": 3,
- "url": "https://raw.githubusercontent.com/FarmBot-Labs/farmware_manifests/master/packages/take-photo/manifest.json",
+ "url": "https://raw.githubusercontent.com/MaddieLynx/Farming-Automation/master/Farmware/manifests/pin_reader/manifest.json",
  "zip": "https://github.com/FarmBot-Labs/Take-Photo/archive/master.zip",
  "executable": "python",
  "args": ["Take-Photo-master/take_photo.py"]
