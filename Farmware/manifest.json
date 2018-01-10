@@ -1,0 +1,12 @@
+{
+ "package": "take-photo",
+ "language": "python",
+ "author": "Farmbot.io",
+ "description": "Take a photo using a USB or Raspberry Pi camera.",
+ "version": "1.0.0",
+ "min_os_version_major": 3,
+ "url": "https://raw.githubusercontent.com/MaddieLynx/Farming-Automation/master/Farmware/manifests/pin_reader/manifest.json",
+ "zip": "https://github.com/MaddieLynx/Farming-Automation/tree/master/Farmware/Python/pin_reader/archive/master.zip",
+ "executable": "python",
+ "args": ["Take-Photo-master/take_photo.py"]
+}
