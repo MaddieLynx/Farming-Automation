@@ -25,6 +25,6 @@ def post(wrapped_data):
     requests.post(os.environ['FARMWARE_URL'] + 'api/v1/celery_script',
                   data=payload, headers=headers)
 
-if __name__ == "__main__":
-    farmware_name = 'set_servo_angle'
-    post(set_servo_angle(get_env('pin_number'), get_env('servo_angle')))
+#if __name__ == "__main__":
+#    farmware_name = 'set_servo_angle'
+#    post(set_servo_angle(get_env('pin_number'), get_env('servo_angle')))
