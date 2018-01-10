@@ -4,7 +4,7 @@
  "author": "SAC Hydroponics",
  "description": "Read value of any pin on the Aurduino Mega.",
  "version": "1.0.0",
- "min_os_version_major": 3,
+ "min_os_version_major": 5,
  "url": "https://raw.githubusercontent.com/MaddieLynx/Farming-Automation/master/Farmware/pin-reader/manifest.json",
  "zip": "https://github.com/MaddieLynx/Farming-Automation/tree/master/Farmware/pin-reader/archive/master.zip",
  "executable": "python",
