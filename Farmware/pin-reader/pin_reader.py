@@ -5,7 +5,7 @@ import json
 headers = {
   'Authorization': 'bearer {}'.format(os.environ['FARMWARE_TOKEN']),
   'content-type': "application/json"}
-response = requests.post(os.environ['FARMWARE_URL'] + '/api/v1/bot/state',
+response = requests.post(os.environ['FARMWARE_URL'] + '/api/v5/bot/state',
               headers=headers)
 bot_state = response.json()
 
