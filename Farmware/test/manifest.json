@@ -1,6 +1,6 @@
 
 {
- "package": "Set Servo Angle",
+ "package": "test",
  "language": "python",
  "author": "Farmbot.io",
  "description": "Set the angle of a servo.",
