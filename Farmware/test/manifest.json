@@ -1,0 +1,17 @@
+
+{
+ "package": "Set Servo Angle",
+ "language": "python",
+ "author": "Farmbot.io",
+ "description": "Set the angle of a servo.",
+ "version": "1.0.1",
+ "min_os_version_major": 6,
+ "url": "https://raw.githubusercontent.com/FarmBot-Labs/set-servo-angle/master/manifest.json",
+ "zip": "https://github.com/FarmBot-Labs/set-servo-angle/archive/master.zip",
+ "executable": "python",
+ "args": ["set-servo-angle-master/set_servo_angle.py"],
+ "config": [
+   {"name": "servo_angle", "label": "Servo Angle (0-180)", "value": 0 },
+   {"name": "pin_number", "label": "Pin Number (4-5)", "value": 4 }
+ ]
+}
